@@ -97,8 +97,6 @@ body {
 }
 
 /* Optional: mad smoother and better finisj*/
-.rot90,
-.rot180,
-.rot270 {
-    transition: transform 0.5s ease-in-out;
+.moreIndicator.rotated {
+    transform: rotate(180deg);
 }

@@ -16,27 +16,27 @@ $(document).ready(() => {
     $('.details').slideToggle('slow')
   })
 
-  // Next photo button
+  
   $('#nextPhoto').click(() => {
     showNextPhoto()
   })
 
-  // Previous photo button
+  
   $('#prevPhoto').click(() => {
     showPrevPhoto()
   })
 
-  // Load the images from JSON
+  
   fetchJSON()
 })
 
-// Fetch JSON data and populate mImages
+
 function fetchJSON () {
   $.ajax({
     url: mUrl,
     dataType: 'json',
     success: function (data) {
-      mImages = data.images // assumes the JSON has a property called "images"
+      mImages = data.images 
       swapPhoto()
     },
     error: function (xhr, status, error) {
@@ -45,7 +45,6 @@ function fetchJSON () {
   })
 }
 
-// Display the current photo and details
 function swapPhoto () {
   if (mImages.length === 0) return
 
@@ -56,7 +55,7 @@ function swapPhoto () {
   $('.date').text('Date: ' + currentImage.date)
 }
 
-// Show next photo (loops to start if at end)
+
 function showNextPhoto () {
   mCurrentIndex++
   if (mCurrentIndex >= mImages.length) {
@@ -65,7 +64,6 @@ function showNextPhoto () {
   swapPhoto()
 }
 
-// Show previous photo (loops to end if at start)
 function showPrevPhoto () {
   mCurrentIndex--
   if (mCurrentIndex < 0) {
