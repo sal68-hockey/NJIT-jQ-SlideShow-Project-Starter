@@ -1,11 +1,10 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url('../img/geometry.jpg');
+    background-image: url('img/geometry.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
-
 
 #photoBooth {
     padding: 25px;
@@ -17,12 +16,10 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 .photoHolder {
     width: 100%;
     text-align: center;
 }
-
 
 .thumbnail {
     width: 100%;
@@ -32,7 +29,6 @@ body {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
 }
 
-
 .banner {
     font-size: 2rem;
     font-weight: bold;
@@ -41,12 +37,11 @@ body {
     margin-bottom: 10px;
 }
 
-
 .moreIndicator {
     height: 50px;
     width: 50px;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.67s ease-in-out;
     display: block;
     margin: 15px auto;
 }
@@ -63,7 +58,6 @@ body {
     transform: scale(1.05);
 }
 
-\* Style for the details section */
 .details {
     border: 1px dashed #000;
     padding: 15px;
@@ -72,31 +66,14 @@ body {
     color: #333;
     font-size: 1rem;
     margin-top: 10px;
-        display: none;
-    }
+    display: none;
+}
 
 .details p {
     margin: 10px 0;
 }
 
-
-
-
-.rot90 {
-    transform: rotate(90deg);
-}
-
-
-.rot180 {
-    transform: rotate(180deg);
-}
-
-
-.rot270 {
-    transform: rotate(270deg);
-}
-
-/* Optional: mad smoother and better finisj*/
-.moreIndicator.rotated {
-    transform: rotate(180deg);
-}
+.rot90 { transform: rotate(90deg); }
+.rot180 { transform: rotate(180deg); }
+.rot270 { transform: rotate(270deg); }
+.moreIndicator.rotated { transform: rotate(180deg); }

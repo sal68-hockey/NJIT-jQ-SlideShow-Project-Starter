@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "imgPath": "fish-1.jpg",
+      "imgPath": "img/fish-1.jpg",
       "imgfish": "Oyster Toadfish",
       "description": "The oyster toadfish might not win any beauty contests, but it’s one of the most unique catches in NJ waters. With a big, bumpy head and wide mouth, it’s known for making a loud “grunting” sound. These tough little fish often hide in rocky bottoms and around docks.",
       "avgsize": "1–2 pounds, around 12–15 inches long"
@@ -13,51 +13,52 @@
       "avgsize": "2–5 pounds, 15–25 inches"
     },
     {
-      "imgPath": "fish-3.jpg",
+      "imgPath": "img/fish-3.jpg",
       "imgfish": "Tog (Blackfish)",
       "description": "Known for their fighting power and delicious meat, tog hang around wrecks, reefs, and rock piles. They have strong teeth for crunching crabs and shellfish — and they put up a serious battle once hooked.",
       "avgsize": "3–7 pounds, 16–22 inches"
     },
     {
-      "imgPath": "fish-4.jpg",
+      "imgPath": "img/fish-4.jpg",
       "imgfish": "Muskie (Muskellunge)",
       "description": "The muskie is one of the top freshwater predators in NJ. Long, sleek, and powerful, it’s often called the “fish of 10,000 casts” because they’re so rare and challenging to catch. Found mainly in lakes like Greenwood and Echo Lake Reservoir.",
       "avgsize": "15–30 pounds, 30–45 inches"
     },
     {
-      "imgPath": "fish-5.jpg",
+      "imgPath": "img/fish-5.jpg",
       "imgfish": "Striped Bass",
       "description": "The striped bass is one of New Jersey’s most famous game fish. With silver sides and dark horizontal stripes, they migrate along the coast and can be caught from surf, boat, or jetty. Big “stripers” are known for their epic fights and tasty fillets.",
       "avgsize": "10–30 pounds, 25–40 inches"
     },
-    {"imgPath":"fish -6.jpg",
+    {
+      "imgPath": "img/fish-6.jpg",
       "imgfish": "Black Sea Bass",
       "description": "These bottom-dwellers are found near wrecks and reefs offshore. They have beautiful dark bodies with blue-green highlights. Fun to catch and great to eat, black sea bass are a favorite for anglers all summer long.",
       "avgsize": "1–4 pounds, 12–18 inches"
     },
     {
-      "imgPath": "fish -7.jpg",
+      "imgPath": "img/fish-7.jpg",
       "imgfish": "Tilefish",
       "description": "Found in deep offshore waters, tilefish are colorful with yellow, blue, and pink hues. They live in burrows along the ocean floor and are prized for their mild, lobster-like flavor. Catching one is an offshore adventure!",
       "avgsize": "5–15 pounds, 20–30 inches"
     },
     {
-      "imgPath": "fish-9.jpg",
+      "imgPath": "img/fish-8.jpg",
+      "imgfish": "Bluegill",
+      "description": "A great fish for beginners and kids, bluegill are found in nearly every NJ pond and lake. They are colorful, with blue and orange highlights, and easy to catch on worms or small lures — perfect for a relaxing day on the water.",
+      "avgsize": "0.5–1 pound, 6–10 inches"
+    },
+    {
+      "imgPath": "img/fish-9.jpg",
       "imgfish": "Black Drum",
       "description": "These big, strong fish are known for the drumming sound they make underwater. Found in bays and coastal waters, they’re often caught using clams or crabs. Large adults can reach over 60 pounds!",
       "avgsize": "10–40 pounds, 20–40 inches"
     },
     {
-      "imgPath": " fish-10.jpg",
+      "imgPath": "img/fish-10.jpg",
       "imgfish": "Smallmouth Bass",
       "description": "A favorite of freshwater anglers, smallmouths are strong fighters that jump high when hooked. Found in rivers and lakes across northern NJ, they have bronze bodies and red eyes, making them both beautiful and fun to catch.",
       "avgsize": "2–5 pounds, 12–18 inches"
-    },
-    {
-      "imgPath": "fish -8.jpg",
-      "imgfish": "Bluegill",
-      "description": "A great fish for beginners and kids, bluegill are found in nearly every NJ pond and lake. Theyre colorful, with blue and orange highlights, and easy to catch on worms or small lures — perfect for a relaxing day on the water.",
-      "avgsize": "0.5–1 pound, 6–10 inches"
     }
   ]
 }
